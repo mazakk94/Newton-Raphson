@@ -1,0 +1,221 @@
+object NewtRaph: TNewtRaph
+  Left = 523
+  Height = 409
+  Top = 158
+  Width = 692
+  Caption = 'NewtRaph'
+  ClientHeight = 409
+  ClientWidth = 692
+  LCLVersion = '1.4.0.4'
+  object Oblicz: TButton
+    Left = 264
+    Height = 25
+    Top = 176
+    Width = 177
+    Caption = 'Oblicz'
+    OnClick = ObliczClick
+    TabOrder = 0
+  end
+  object eX: TEdit
+    Left = 216
+    Height = 23
+    Top = 112
+    Width = 79
+    OnEnter = eXEnter
+    TabOrder = 1
+    Text = '-2.2'
+  end
+  object OutputBox: TListBox
+    Left = 8
+    Height = 80
+    Top = 16
+    Width = 680
+    ItemHeight = 0
+    TabOrder = 2
+  end
+  object rArytmetyczna: TRadioButton
+    Left = 304
+    Height = 19
+    Top = 232
+    Width = 57
+    Caption = 'Zwykla'
+    Checked = True
+    OnChange = rArytmetycznaChange
+    TabOrder = 3
+    TabStop = True
+  end
+  object rPrzedzialowa: TRadioButton
+    Left = 304
+    Height = 19
+    Top = 264
+    Width = 88
+    Caption = 'Przedzialowa'
+    OnChange = rPrzedzialowaChange
+    TabOrder = 4
+  end
+  object RodzajArytmetyki: TLabel
+    Left = 304
+    Height = 15
+    Top = 208
+    Width = 93
+    Caption = 'RodzajArytmetyki'
+    ParentColor = False
+  end
+  object eMit: TEdit
+    Left = 311
+    Height = 23
+    Top = 112
+    Width = 80
+    OnEnter = eMitEnter
+    TabOrder = 5
+    Text = '10'
+  end
+  object eEps: TEdit
+    Left = 408
+    Height = 23
+    Top = 112
+    Width = 80
+    TabOrder = 6
+    Text = '16'
+  end
+  object eX2: TEdit
+    Left = 216
+    Height = 23
+    Top = 144
+    Width = 80
+    TabOrder = 7
+    Text = '-2.2'
+    Visible = False
+  end
+  object eNewt: TEdit
+    Left = 120
+    Height = 23
+    Top = 304
+    Width = 248
+    TabOrder = 8
+  end
+  object eFatx: TEdit
+    Left = 120
+    Height = 23
+    Top = 332
+    Width = 248
+    TabOrder = 9
+  end
+  object Label1: TLabel
+    Left = 64
+    Height = 15
+    Top = 304
+    Width = 50
+    Caption = 'newtraph'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 88
+    Height = 15
+    Top = 332
+    Width = 19
+    Caption = 'fatx'
+    ParentColor = False
+  end
+  object eFatx2: TEdit
+    Left = 120
+    Height = 23
+    Top = 360
+    Width = 248
+    TabOrder = 10
+    Visible = False
+  end
+  object Label3: TLabel
+    Left = 88
+    Height = 15
+    Top = 360
+    Width = 25
+    Caption = 'fatx2'
+    ParentColor = False
+    Visible = False
+  end
+  object Label4: TLabel
+    Left = 336
+    Height = 15
+    Top = 0
+    Width = 57
+    Caption = 'OutputBox'
+    ParentColor = False
+  end
+  object Epsoutput: TEdit
+    Left = 24
+    Height = 23
+    Top = 176
+    Width = 168
+    TabOrder = 11
+  end
+  object Label5: TLabel
+    Left = 232
+    Height = 15
+    Top = 96
+    Width = 7
+    Caption = 'X'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 320
+    Height = 15
+    Top = 96
+    Width = 18
+    Caption = 'Mit'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 40
+    Height = 15
+    Top = 160
+    Width = 18
+    Caption = 'Eps'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 423
+    Height = 15
+    Top = 96
+    Width = 18
+    Caption = 'Eps'
+    ParentColor = False
+  end
+  object eNewt2: TEdit
+    Left = 376
+    Height = 23
+    Top = 304
+    Width = 240
+    TabOrder = 12
+  end
+  object eit: TEdit
+    Left = 120
+    Height = 23
+    Top = 278
+    Width = 80
+    TabOrder = 13
+  end
+  object Label9: TLabel
+    Left = 106
+    Height = 15
+    Top = 280
+    Width = 7
+    Caption = 'it'
+    ParentColor = False
+  end
+  object Label10: TLabel
+    Left = 203
+    Height = 15
+    Top = 280
+    Width = 9
+    Caption = 'st'
+    ParentColor = False
+  end
+  object eSt: TEdit
+    Left = 216
+    Height = 23
+    Top = 277
+    Width = 80
+    TabOrder = 14
+  end
+end
