@@ -1,3 +1,5 @@
 Topic: "Solving non-linear equations by the Newton-Raphson second order"
 
-Temat: "Rozwi¹zywanie równania nieliniowego metod¹ Newtona-Raphsona drugiego rzedu"
+Temat: "Rozwiazywanie rÃ³wnania nieliniowego metoda Newtona-Raphsona drugiego rzedu"
+
+Language: Pascal (Lazarus)
